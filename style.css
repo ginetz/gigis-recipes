@@ -22,10 +22,9 @@ a{
     text-decoration: none;
     color: #def2ea;
     font-weight: bold;
-    transition: all ease 0.2s;
 }
 a:hover {
-    transform: scale(1.1);
+    text-decoration:underline;
 }
 footer {
     padding-top: 1em;
