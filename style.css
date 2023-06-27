@@ -8,22 +8,23 @@ html{
     font-family: 'ticketbit';
 }
 header{
-    background-color: white;
-    color: #3B3F44;
     font-size: 18px;
-    padding-top: 1px;
-    padding-bottom: 1px;
 }
 body{
+    margin: 0;
     background-color: #313232;
     color: white;
     text-align: center;
-    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 img {
     height: 300px;
     width: 500px;
     border-radius: 50px;
+    margin-bottom: 1.5em;
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5)
 }
 h2{
@@ -41,31 +42,30 @@ footer {
     padding-top: 1em;
     padding-bottom: 1em;
     text-align: center;
+    margin-top: auto;
 }
 .list-recipes{
-    margin-top: -9em;
     background: #1b1c1c;
     list-style: inside;
-    padding-top: 10em;
-    padding-bottom: 1em;
-    padding-left: 1em;
-    padding-right: 1em;
+    padding: 1em;
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
-    color: white;
 }
 .list-main{
-    list-style-type: none;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    font-size: 20px;
     background: #1b1c1c;
+    list-style-type: inside;
+    padding: 1.5em;
+    font-size: 20px;
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
 }
-#recipes{
-    padding-top: 1em;
-    padding-bottom: 1em;
+#recipe-title{
+    background-color: #1b1c1c;
+    padding: 0.5em;
 }
+.return{
+    background-color: #007c7d;
+    padding: 0.5em;
+} 
 #header{
-    color: #3B3F44;
+    color: #00ced1;
 }
 
