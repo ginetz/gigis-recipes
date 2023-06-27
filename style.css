@@ -10,7 +10,9 @@ html{
 header{
     background-color: white;
     color: #3B3F44;
-    font-size: 20px;
+    font-size: 18px;
+    padding-top: 1px;
+    padding-bottom: 1px;
 }
 body{
     background-color: #313232;
